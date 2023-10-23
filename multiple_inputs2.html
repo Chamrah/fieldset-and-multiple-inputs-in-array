@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICE 2</title>
+    <style>
+        .fieldsit1{
+            width: 60%;
+           border: solid;
+           border-color: black;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+    <fieldset class="fieldsit1" >
+        <fieldset  >
+            <legend>
+                <b><mark>Client:</mark></b>
+            </legend>
+            <table width="100%">
+                <tr width="50px">
+                    <td>
+                        <label for="Civilite"><b>Civilite</b></label>
+                    </td>
+                    <td>
+                        <input name="Civilite" id="Civilite" type="radio">Mademoiselle
+                        <input name="Civilite" id="Civilite" type="radio">Madame
+                        <input name="Civilite" id="Civilite" type="radio">Monsieur
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="np1"> <b>Nom / Prenom</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="np1" id="np1">
+                    </td>
+                </tr>
+                <tr>
+                   <td>
+                    <label for=""><b>Adresse</b></label>
+                   </td>
+                   <td>
+                    <textarea name="" id="" cols="20" rows="5" placeholder="Rue No Boite postal"></textarea>
+                   </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for=""><b>No postal/ <br> localite</b></label>
+                    </td>
+                    <td>
+                        <input type="text">
+                        <br>
+                        <input type="text" value="Laussane">
+                    </td>
+                </tr>     
+                <tr>
+                    <td>
+                        <label for="pays"><b>Pays</b></label>
+                    </td>
+                    <td>
+                        <select name="pays" id="pays">
+                            <option value="">Maroc</option>
+                            <option value="">Espagne</option>
+                            <option value="">Portugal</option>
+                            <option value="">chine</option>
+                            <option value="">Amérique</option>
+                        </select>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <label for="Plateforms"><b>Plateforms</b></label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="Plateforms">Windows 
+                        <input type="checkbox" id="Plateforms">Macintosh
+                        <input type="checkbox" id="Plateforms">Linux
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <label for="aplications"><b>Aplications</b></label>
+                    </td>
+                    <td>
+                        <select name="Aplications" id="Aplications" multiple>
+                            <option value="">Bureautique</option>
+                            <option value="">SGBD</option>
+                            <option value="">DAO</option>
+                            <option value="">Internet</option>
+                            <option value="">Statistiques</option>
+                        </select>
+                    </td>
+                </tr>     
+            
+        </fieldset>    
+       
+    </table>
+    
+    </fieldset>
+    <div class="btn">
+        <input  type="submit" value="Soumettre formilaire">
+        <input  type="reset" value="Effacer">
+    </div>
+</form>
+</body>
+</html>
